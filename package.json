@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
